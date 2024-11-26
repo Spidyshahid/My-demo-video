@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto-play Video</title>
+    <title>Shorts Video Embed</title>
+    <style>
+        /* Custom background style */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('https://example.com/your-image.jpg') no-repeat center center fixed; /* Replace with your background image URL */
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling for the iframe to make it responsive */
+        iframe {
+            width: 80%;
+            height: 80%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Video Page</h1>
-    <p>The video below will automatically play:</p>
-    <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/9fbIzFUUyF8?autoplay=1&mute=1" 
-        title="YouTube video player" 
-        frameborder="0" 
+    <iframe 
+        src="https://www.youtube.com/embed/aamvcx4I00Q?autoplay=1" 
+        title="YouTube Shorts video player" 
         allow="autoplay; encrypted-media" 
         allowfullscreen>
     </iframe>
